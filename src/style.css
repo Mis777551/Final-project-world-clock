@@ -36,6 +36,7 @@ select {
 }
 
 .city {
+    background-image: url(https://img.freepik.com/premium-photo/map-world-pastel-pink-background_60487-2207.jpg?w=826);
     border-radius: 15px;
     display: flex;
     margin: 5px 10px;
@@ -68,5 +69,7 @@ footer {
     font-size: 18px;
     color: rgba(0, 0, 0, 0.8);
  }
-
+.cities{
+    background-color: aquamarine;
+}
  
