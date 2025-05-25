@@ -1,12 +1,24 @@
 body {
-    background-color: #f9f7fe;
+    background-image: url(https://img.freepik.com/premium-photo/map-world-pastel-pink-background_60487-2207.jpg?w=826);
     font-family: sans-serif;
+    transition:  0.5s ease-in-out;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    background-image: url(https://img.freepik.com/premium-photo/map-world-pastel-pink-background_60487-2207.jpg?w=826);
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px; 
 }
 
 h1 {
     text-align: center;
     font-family: sans-serif;
-    font-size: 36px;
+    font-size: 30px;
 }
 
 h2 {
@@ -22,20 +34,12 @@ select {
     padding: 10px;
 }
 
-.container {
-    max-width: 600px;
-    margin: 60px auto;
-    background: white;
-    padding: 30px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    border-radius: 10px;
-}
-
 .city {
+    border-radius: 15px;
     display: flex;
-    margin: 10px 0;
+    margin: 5px 10px;
     justify-content: space-between;
-    padding: 30px 0;
+    padding: 80px  0;
     border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
 }
 
@@ -61,4 +65,7 @@ select {
 footer {
     text-align: center;
     font-size: 18px;
-    color: rgba(0, 0, 0, 0.8); }
+    color: rgba(0, 0, 0, 0.8);
+ }
+
+ 
